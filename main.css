@@ -1,0 +1,162 @@
+body {
+   /* background-image: url("skysun.jpg");*/
+    /*background-color: rgba(161, 162, 162, 0.55);*/
+    background-image: url("assets/img/wood1.jpg");
+    background-size: cover;
+   /* background-size:100% 115%;*/
+    background-repeat: repeat-y;
+}
+.body_all {
+    background-color: rgba(161, 162, 162, 0.55);
+    background-size:cover;
+    background-repeat: repeat-y;
+    padding-bottom: 10px;
+}
+.body_all .col-md, .body_all .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#header {
+    height: 50vh;
+    min-height: 300px;
+    /*margin-bottom: 5px;*/
+    background-image: url("assets/img/cows.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#headermilk {
+    height: 50vh;
+    min-height: 300px;
+    /*margin-bottom: 5px;*/
+    background-image: url("assets/img/Milk_Cheese_Quark_curd_cottage_farmer_cheese_576611_1280x851.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#headerdrive {
+    height: 70vh;
+    min-height: 300px;
+    /*margin-bottom: 5px;*/
+    background-image: url("assets/img/delivery.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#headercontact {
+    height: 50vh;
+    min-height: 300px;
+    /*margin-bottom: 5px;*/
+    background-image: url("assets/img/map_contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first {
+    text-align: center;
+    color: darkblue;
+    font-size: xxx-large;
+    font-family: "Segoe UI Historic", serif;
+    font-style: italic;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#second {
+    text-align: left;
+    color: black;
+    font-style: italic;
+    font-family: "Arial Narrow",serif;
+    font-size: x-large;
+}
+#third {
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+    font-family: "Bell MT",serif;
+    font-style: oblique;
+}
+#first_link {
+    color: red;
+    background-color: #ffb700;
+    padding: 10px;
+    display-inside:ruby-text-container;
+    margin-top: 20px;
+}
+#letter {
+    /*margin-top:20px;*/
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: left;
+    color: rgba(138, 239, 14, 0.55);
+    font-family: "Bell MT";
+    font-style: italic;
+    font-size: x-large;
+}
+.pole {
+    margin-top:40px;
+    background: #647264;
+    width: auto;
+    height: 80px;
+}
+/*.grass {
+    background-image: url("assets/img/wood1.jpg");
+    background-size: cover;
+    margin-bottom: 0px;
+}*/
+.fourth {
+    color: #f0f0f3 !important;
+    font-family: "Bell MT";
+    font-style: italic;
+    font-size: x-large;
+}
+.doska {
+    /*background-image: url("assets/img/grass.jpg");*/
+    background-size: contain;
+    background-color: #ffb700;
+}
+.prodacts {
+    color: black;
+    font-size: large;
+}
+.nav-link {
+    color: rgb(255, 7, 44) !important;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.left {
+    float:left;
+    margin-right: 30px
+}
+.right {
+    float:right;
+}
+.price {
+    text-align: center;
+    color: black;
+    font-size:x-large;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("assets/img/wood_mob.jpg");
+        background-position: center;
+    }
+}
+
+@media (min-width: 768px) {
+    #pictures .col-md-3 {
+        padding: 0;
+        overflow-x: hidden;
+    }
+    #pictures > .col-md-3 > button {
+        width: calc(100% - 20px);
+        margin: 0 10px;
+    }
+}
+
+h3 a, h3 a:hover {
+    text-decoration: none;
+    color: inherit;
+}
