@@ -1,63 +1,38 @@
+
+/* --- BODY --- */
 body {
-    /* background-image: url("skysun.jpg");*/
-    /*background-color: rgb(120 177 51);*/
     background-image: url("assets/img/wood1.jpg");
     background-size: cover;
-    /* background-size:100% 115%;*/
     background-repeat: repeat-y;
 
     min-height: 100vh;
 }
 
-.body-alt {
-    background-color: rgba(161, 162, 162, 0.55);
-    padding-bottom: 10px;
-}
-
-.body_all .col-md, .body_all .row {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-#header {
-    height: 50vh;
-    min-height: 300px;
-    /*margin-bottom: 5px;*/
-    background-image: url("assets/img/cows.jpg");
+/* --- HEADER --- */
+/* header-img */
+.header-img {
     background-repeat: no-repeat;
     background-size: cover;
-}
 
-#headermilk {
     height: 50vh;
     min-height: 300px;
-    /*margin-bottom: 5px;*/
-    background-image: url("assets/img/Milk_Cheese_Quark_curd_cottage_farmer_cheese_576611_1280x851.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-
-#headerdrive {
+.header-img.large {
     height: 70vh;
-    min-height: 300px;
-    /*margin-bottom: 5px;*/
-    background-image: url("assets/img/delivery.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
 }
-
-#headercontact {
-    height: 50vh;
-    min-height: 300px;
-    /*margin-bottom: 5px;*/
-    background-image: url("assets/img/map_contact.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+/* navigation */
+.nav-link {
+    color: rgb(138, 239, 14) !important;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+.nav-link.active {
+    text-decoration: underline;
 }
 
+/* --- MAIN --- */
 .first {
     text-align: center;
     color: rgb(138, 239, 14);
@@ -69,20 +44,19 @@ body {
     margin-left: 50px;
 }
 
-#second {
-    text-align: left;
-    color: black;
-    font-style: italic;
-    font-family: "Arial Narrow", serif;
-    font-size: x-large;
-}
-
-#third {
+.third {
     text-align: center;
     color: rgb(138, 239, 14) !important;
     font-size: xx-large;
     font-family: "Bell MT", serif;
     font-style: oblique;
+}
+
+.fourth {
+    color: rgb(138, 239, 14) !important;
+    font-family: "Bell MT", serif;
+    font-style: italic;
+    font-size: x-large;
 }
 
 #first_link {
@@ -94,7 +68,6 @@ body {
 }
 
 .letter {
-    /*margin-top:20px;*/
     text-align: left;
     color: rgba(138, 239, 14, 0.55);
     font-family: "Bell MT", serif;
@@ -102,28 +75,15 @@ body {
     font-size: x-large;
 }
 
-.pole {
-    margin-top: 40px;
-    background: #647264;
-    width: auto;
-    height: 80px;
-}
-
-/*.grass {
-    background-image: url("assets/img/wood1.jpg");
-    background-size: cover;
-    margin-bottom: 0px;
-}*/
-.fourth {
-    color: rgb(138, 239, 14) !important;
-    font-family: "Bell MT", serif;
-    font-style: italic;
-    font-size: x-large;
-}
-
 .doska {
-    /*background-image: url("assets/img/grass.jpg");*/
     background-size: contain;
+}
+
+.col-md, .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .products {
@@ -131,31 +91,22 @@ body {
     font-size: large;
 }
 
-.nav-link {
-    color: rgb(138, 239, 14) !important;
-    font-style: italic;
-    font-size: x-large;
-    font-weight: bold;
-}
-.nav-link.active {
-    text-decoration: underline;
-}
-
 .left {
     float: left;
     margin-right: 30px
 }
 
-.right {
-    float: right;
+h3 a, h3 a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
-.price {
-    text-align: center;
-    color: black;
-    font-size: x-large;
+/* --- FOOTER --- */
+footer {
+    margin-top: 120px;
 }
 
+/* MEDIA */
 @media (max-width: 768px) {
     body {
         background-image: url("assets/img/wood_mob.jpg");
@@ -173,9 +124,4 @@ body {
         width: calc(100% - 20px);
         margin: 0 10px;
     }
-}
-
-h3 a, h3 a:hover {
-    text-decoration: none;
-    color: inherit;
 }
