@@ -1,23 +1,26 @@
 body {
-   /* background-image: url("skysun.jpg");*/
-    /*background-color: rgba(161, 162, 162, 0.55);*/
+    /* background-image: url("skysun.jpg");*/
+    /*background-color: rgb(120 177 51);*/
     background-image: url("assets/img/wood1.jpg");
     background-size: cover;
-   /* background-size:100% 115%;*/
+    /* background-size:100% 115%;*/
     background-repeat: repeat-y;
+
+    min-height: 100vh;
 }
-.body_all {
+
+.body-alt {
     background-color: rgba(161, 162, 162, 0.55);
-    background-size:cover;
-    background-repeat: repeat-y;
     padding-bottom: 10px;
 }
+
 .body_all .col-md, .body_all .row {
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
 }
+
 #header {
     height: 50vh;
     min-height: 300px;
@@ -26,6 +29,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #headermilk {
     height: 50vh;
     min-height: 300px;
@@ -34,6 +38,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #headerdrive {
     height: 70vh;
     min-height: 300px;
@@ -43,6 +48,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 #headercontact {
     height: 50vh;
     min-height: 300px;
@@ -51,9 +57,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .first {
     text-align: center;
-    color: darkblue;
+    color: rgb(138, 239, 14);
     font-size: xxx-large;
     font-family: "Segoe UI Historic", serif;
     font-style: italic;
@@ -61,81 +68,92 @@ body {
     margin-right: 50px;
     margin-left: 50px;
 }
+
 #second {
     text-align: left;
     color: black;
     font-style: italic;
-    font-family: "Arial Narrow",serif;
+    font-family: "Arial Narrow", serif;
     font-size: x-large;
 }
+
 #third {
     text-align: center;
-    color: red;
+    color: rgb(138, 239, 14) !important;
     font-size: xx-large;
-    font-family: "Bell MT",serif;
+    font-family: "Bell MT", serif;
     font-style: oblique;
 }
+
 #first_link {
     color: red;
     background-color: #ffb700;
     padding: 10px;
-    display-inside:ruby-text-container;
+    display-inside: ruby-text-container;
     margin-top: 20px;
 }
-#letter {
+
+.letter {
     /*margin-top:20px;*/
-    margin-right: 50px;
-    margin-left: 50px;
     text-align: left;
     color: rgba(138, 239, 14, 0.55);
-    font-family: "Bell MT";
+    font-family: "Bell MT", serif;
     font-style: italic;
     font-size: x-large;
 }
+
 .pole {
-    margin-top:40px;
+    margin-top: 40px;
     background: #647264;
     width: auto;
     height: 80px;
 }
+
 /*.grass {
     background-image: url("assets/img/wood1.jpg");
     background-size: cover;
     margin-bottom: 0px;
 }*/
 .fourth {
-    color: #f0f0f3 !important;
-    font-family: "Bell MT";
+    color: rgb(138, 239, 14) !important;
+    font-family: "Bell MT", serif;
     font-style: italic;
     font-size: x-large;
 }
+
 .doska {
     /*background-image: url("assets/img/grass.jpg");*/
     background-size: contain;
-    background-color: #ffb700;
 }
-.prodacts {
+
+.products {
     color: black;
     font-size: large;
 }
+
 .nav-link {
-    color: rgb(255, 7, 44) !important;
+    color: rgb(138, 239, 14) !important;
     font-style: italic;
     font-size: x-large;
     font-weight: bold;
 }
+.nav-link.active {
+    text-decoration: underline;
+}
 
 .left {
-    float:left;
+    float: left;
     margin-right: 30px
 }
+
 .right {
-    float:right;
+    float: right;
 }
+
 .price {
     text-align: center;
     color: black;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 @media (max-width: 768px) {
@@ -150,6 +168,7 @@ body {
         padding: 0;
         overflow-x: hidden;
     }
+
     #pictures > .col-md-3 > button {
         width: calc(100% - 20px);
         margin: 0 10px;
