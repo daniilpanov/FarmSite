@@ -1,3 +1,8 @@
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /* --- BODY --- */
 body {
@@ -33,6 +38,10 @@ body {
 }
 
 /* --- MAIN --- */
+section {
+    margin-top: 100px;
+}
+
 .first {
     text-align: center;
     color: rgb(138, 239, 14);
@@ -57,14 +66,6 @@ body {
     font-family: "Bell MT", serif;
     font-style: italic;
     font-size: x-large;
-}
-
-#first_link {
-    color: red;
-    background-color: #ffb700;
-    padding: 10px;
-    display-inside: ruby-text-container;
-    margin-top: 20px;
 }
 
 .letter {
@@ -94,11 +95,6 @@ body {
 .left {
     float: left;
     margin-right: 30px
-}
-
-h3 a, h3 a:hover {
-    text-decoration: none;
-    color: inherit;
 }
 
 /* --- FOOTER --- */
